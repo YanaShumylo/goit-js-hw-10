@@ -41,6 +41,11 @@ a {text-decoration: none;}
 .main-title{
 margin-bottom: 32px;
 }
+.center-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
 .my-input{
   border-radius: 4px;
@@ -55,7 +60,7 @@ letter-spacing: 0.04em;
 color: #2e2f42;
 padding: 8px 16px;
 margin-bottom: 32px;
-transition: border-color 0.3s ease;
+transition: border-color 0.5s ease;
 }
 
 .my-input:hover{
@@ -66,6 +71,7 @@ transition: border-color 0.3s ease;
 .my-input:active{
 border: 1px solid #4E75FF;
 color: #000000;
+outline: none;
 }
 
 .my-input:disabled{
