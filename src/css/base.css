@@ -30,3 +30,98 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+button {cursor: pointer;}
+
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;}
+
+a {text-decoration: none;}
+
+.main-title{
+margin-bottom: 32px;
+}
+
+.my-input{
+  border-radius: 4px;
+width: 240px;
+height: 24px;
+background-color: #fff;
+border: 1px solid #808080;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #2e2f42;
+padding: 8px 16px;
+margin-bottom: 32px;
+transition: border-color 0.3s ease;
+}
+
+.my-input:hover{
+  border-radius: 4px;
+  border: 1px solid #2E2F42;
+}
+
+.my-input:active{
+border: 1px solid #4E75FF;
+color: #000000;
+}
+
+.my-input:disabled{
+border: 1px solid #FAFAFA;
+background-color: #fafafa;
+color: #808080;
+}
+
+.btn{
+border-radius: 8px;
+border: none;
+padding: 8px 16px;
+width: 75px;
+height: 40px;
+background-color: #4e75ff;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.btn:hover{
+background-color: #6c8cff;
+}
+
+.btn:disabled{
+color: #989898;
+background-color: #cfcfcf;
+}
+
+
+.timer {
+display: flex;
+flex-wrap: wrap;
+gap: 24px;
+justify-content: center;
+align-items: center;
+width: 346px;
+height: 72px;}
+
+.field{
+width: calc((100% - 72px) / 4);
+}
+
+.value {
+font-weight: 400;
+font-size: 40px;
+line-height: 1.2;
+letter-spacing: 0.04em;
+color: #2e2f42;
+}
+
+.label {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+color: #2e2f42;
+}
