@@ -38,9 +38,11 @@ margin: 0;}
 
 a {text-decoration: none;}
 
+/* -----------------------timer---------------------------- */
 .main-title{
 margin-bottom: 32px;
 }
+
 .center-wrapper {
   display: flex;
   flex-direction: column;
@@ -50,7 +52,6 @@ margin-bottom: 32px;
 .my-input{
   border-radius: 4px;
 width: 240px;
-height: 24px;
 background-color: #fff;
 border: 1px solid #808080;
 font-weight: 400;
@@ -130,4 +131,89 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 color: #2e2f42;
+}
+
+/* -----------------------snackbar---------------------------- */
+.wrapper-snackbar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label-delay {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 360px;
+  margin-bottom: 16px;
+  text-align: start;
+  }
+
+.label-state{
+  width: 260px;
+  text-align: start;
+  margin-bottom: 24px;
+  display: flex;
+flex-wrap: wrap;
+padding: 24px 48px 8px 48px;
+gap: 48px;
+}
+
+.label-radio{
+width: calc((100% - 48px) / 2);
+}
+
+.input-text{
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0.04em;
+color: #2e2f42;}
+
+.border-delay{
+border: 1px solid #808080;
+border-radius: 4px;
+transition: border-color 0.5s ease;
+}
+
+.border-delay:hover {
+  border: 1px solid #000000;
+}
+
+.border-delay:active{
+  border: 1px solid #4E75FF;
+  outline: none;
+}
+
+.border-state{
+border: 1px solid #808080;
+border-radius: 4px;
+transition: border-color 0.5s ease;
+}
+
+.border-state:hover {
+  border: 1px solid #000000;
+}
+
+.border-state:active {
+  border: 1px solid #000000;
+}
+
+
+.btn-snackbar {
+  border-radius: 8px;
+padding: 8px 16px;
+width: 360px;
+height: 40px;
+background-color: #4e75ff;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #fff;
+border: none;
+}
+
+.btn-snackbar:hover{
+background-color: #6c8cff;
 }

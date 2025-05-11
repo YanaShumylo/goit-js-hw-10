@@ -15,9 +15,30 @@
     />
 
      <main>
-      <div class="container">
+      <div class="container wrapper-snackbar">
         <a class="back-link" href="./index.html">Go back</a>
         <h1 class="main-title">to page snackbar</h1>
+        <form class="form">
+  <label class="label-delay">
+    Delay (ms)
+    <input class="input-text border-delay" type="number" name="delay" required />
+  </label>
+
+  <fieldset class="label-state border-state ">
+    <legend>State</legend>
+    <label class="label-radio">
+      <input class="input-text" type="radio" name="state" value="fulfilled" required />
+      Fulfilled
+    </label>
+    <label class="label-radio">
+      <input class="input-text " type="radio" name="state" value="rejected" required />
+      Rejected
+    </label>
+  </fieldset>
+
+  <button class="btn-snackbar" type="submit">Create notification</button>
+</form>
+
       </div>
     </main>
 
